@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+Footer {
+   color: white;
+}
+
+.home-img {
+  width: 300px;
+  height:150px;
+}
+
+.welcome-text {
+  font-family:  'Fredericka the great', serif;
+  text-align: center;   
+  color:white;
+  /* color: #FFEC33; */
+  margin: 12% 7% 0;
+  font-size: 5rem;
+  text-shadow: -1px 1px 2px black,
+        1px 1px 2px black,
+        1px -1px 0 black,
+                -1px -1px 0 black;
+background-color: rgba(0, 0, 0, 0.15);
+ 
+} 
+
+.welcome-message{
+   
+  margin-top: 3% ;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Oranienbaum', serif;
+  font-size: 2rem;
+ /* color: #FFEC33 ; */
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  
+  text-shadow: -1px 1px 2px black,
+        1px 1px 2px black,
+        1px -1px 0 black,
+                -1px -1px 0 black;
+  background-color: rgba(0, 0, 0, 0.1);
+  
+}
+
+
+.about-us-image {
+  width: 400px;
+  margin-right: 1rem;
+  margin-top:5px;
+
+}
+
+.navbar {
+  background-image: linear-gradient(to right,firebrick, darkred,  black);
+  
+}
+
